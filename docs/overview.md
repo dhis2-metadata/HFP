@@ -1,17 +1,17 @@
-# Sensory Function: Eye and Ear Care
+# HFA - Health Facility Attributes
 
 ## Release note 
 
-- [Release note](#ncd-sf-release-note)
+- [Release note](#hfa-release-note)
 
 ## Design
 
-- [Design](#ncd-sf-design)
+- [Design](#hfa-design)
 
 ## Installation
 
-- [Installation guide](#ncd-sf-installation)
+- [Installation guide](#hfa-installation)
 
 ## Metadata reference
 
-- [Version 1.0.0](https://packages.dhis2.org/en/NCD_SF/1.0.0/DHIS2.39/NCD_SF_COMPLETE_1.0.0_DHIS2.39.xlsx)
+- [Version 1.0.0](https://packages.dhis2.org/en/HFA/0.0.0/DHIS2.38/HFA_COMPLETE_1.0.0_DHIS2.38.xlsx)
