@@ -181,9 +181,6 @@
                     "id": "xpXAoWMDgQD"
                 },
                 {
-                    "id": "kjZSUxte36R"
-                },
-                {
                     "id": "MYNVL78n857"
                 },
                 {
@@ -194,6 +191,9 @@
                 },
                 {
                     "id": "TR5fCCgDt8F"
+                },
+                {
+                    "id": "kjZSUxte36R"
                 },
                 {
                     "id": "ZkCZrfzWUus"
@@ -274,10 +274,10 @@
                     "id": "yyYte6V8yjN"
                 },
                 {
-                    "id": "B6RuPpusIn5"
+                    "id": "fzZ2oKnR9OU"
                 },
                 {
-                    "id": "fzZ2oKnR9OU"
+                    "id": "B6RuPpusIn5"
                 },
                 {
                     "id": "V5STsitJr7b"
@@ -1209,10 +1209,10 @@
             },
             "code": "HFA_HHFA_2201_DELIVER_CHILDBIRTH",
             "domainType": "TRACKER",
-            "formName": "Delivery/childbirth",
+            "formName": "Delivery care, including normal delivery, basic emergency obstetric and newborn care (BEmONC), and/or comprehensive emergency obstetric and newborn care (CEmONC)",
             "id": "kjZSUxte36R",
             "legendSets": [],
-            "name": "HFA - Delivery/childbirth",
+            "name": "HFA - Delivery care, including normal delivery, basic emergency obstetric and newborn care (BEmONC), and/or comprehensive emergency obstetric and newborn care (CEmONC)",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -8058,7 +8058,7 @@
         "DHIS2Version": "2.38.3",
         "code": "HFA",
         "description": "Health Facility Attributes",
-        "lastUpdated": "20230418T200957",
+        "lastUpdated": "20230419T141618",
         "locale": "en",
         "name": "HFA_EVT_DHIS2.38.3-en",
         "type": "EVT",
@@ -8067,7 +8067,3888 @@
     "predictorGroups": [],
     "predictors": [],
     "programIndicatorGroups": [],
-    "programIndicators": [],
+    "programIndicators": [
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "bHtkZua2INy",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "khYqA6DZjl7",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_ANC",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.qI9v8SfY2do} == true",
+            "id": "P0qFnR9aRWW",
+            "legendSets": [],
+            "name": "HFA - Facilities offering antenatal care (ANC)",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering antenatal care (ANC)",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "rEoxAR8rcj4",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "w3XATnop7Bi",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_ART",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.TR5fCCgDt8F} == true",
+            "id": "vlEHfT4SZ9Y",
+            "legendSets": [],
+            "name": "HFA - Facilities offering antiretroviral therapy (ART) for life-long HIV treatment",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering ART for life-long HIV tx",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pTM7Optlvo5",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "BIUbzC3UjFR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_CHILDBIRTH",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.kjZSUxte36R} == 'true'",
+            "id": "RGCNZJ0mSh8",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any delivery/childbirth services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering delivery or childbirth service",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "JmBcKCUfKMR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "c1D79ydcJoP",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.BKHV1TQDjD7} == true",
+            "id": "eTv3onENHL6",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any diagnostic or treatment services for cervical cancer",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities - cervical cancer diagnosis or tx",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "jKqGf5VNhub",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "TXPLQrX52d0",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_STI_TREATMENT_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.XYuUFjTk55B} == true",
+            "id": "nLZaJasi7rK",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any diagnostic or treatment services for sexually transmitted infections (STI)",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any dx or tx services for STIs",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pXvJZIFZj2a",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "JzSpPUPfUpo",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_IMMUNIZATION_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.n4hejx2fUvh} == true",
+            "id": "PgO3lAdPdZn",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any immunization services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any immunization services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ASUVFfVCltG",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "hJSyrvSHifp",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_INPATIENT_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.lh8FLDk0QQn} == true",
+            "id": "zxkDXgncSRZ",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any inpatient services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any inpatient services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "jKeXTasetSu",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Egluf1GHevo",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.nQkMVIng74Y} == true",
+            "id": "eeOmZcv9LnF",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any minor or major surgical services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Minor or major surgical services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "DKS5tbFSOsc",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pLCuLzs9Bib",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_OUTPATIENT_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.qzhjPDZ2NMr} == true",
+            "id": "pOkLL0ykhwg",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any outpatient services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any outpatient services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "smZwU51gMV6",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zWV8fsG3STw",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_PALLIATIVE_CARE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.idtXK1TTyUd} == true",
+            "id": "ZcjeyYQfk4w",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any palliative care services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any palliative care services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "W6I8LNCnIcu",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "rwy4xEdDjgZ",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_REHABILITATION_CARE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.bIoxeJHwDtR} == true",
+            "id": "sKtcwlgHXWA",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any rehabilitation care",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any rehabilitation care",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "RHTDvSDeC37",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "haun2pAF1JA",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_CERVICAL_CANCER_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.BKHV1TQDjD7} == true",
+            "id": "HPg3v0VYh1b",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any screening, diagnostic or treatment services for cervical cancer",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Screening diagnostic or tx for cervical cancer",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "OguUaYEeleE",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "qhv3yGAe76f",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_BREAST_CANCER_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.wQcK74W2Vtt} == true",
+            "id": "cxTXG4yCCuR",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any services for breast cancer",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any services for breast cancer",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "UQY0akSScrp",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "p1LzuCq8ZhX",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_SERVICE_FOR_DRUG_RESISTANT_TB",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.GwmV0q9W5xf} == true",
+            "id": "WqUxqU4TMXw",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any services for drug-resistant TB",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering services for drug-resistant TB",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "epL7xnB2eO7",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "xL3HvkQ4MYB",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_HIV_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.aa9ulv0QpC3} == true || #{HB4aF9Lg3wU.WfmACfSH6Pl} == true ||#{HB4aF9Lg3wU.ee1ZTOL80hx} == true ||#{HB4aF9Lg3wU.tKatq8QO7WA} == true || #{HB4aF9Lg3wU.TR5fCCgDt8F} == true",
+            "id": "bEKHNEfBd0D",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any services for human immunodeficiency virus (HIV) diagnosis and treatment",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering HIV diagnosis and Tx services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "GtAgt0B8EDG",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "vW7V2q5IbDx",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_MENTAL_DISORDER_SERVICE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.lbYJ96eFjmf} == true",
+            "id": "VTblT2ZfZNV",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any services for mental disorders",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering services for mental disorders",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "UtRvb2QV5Es",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "vZWt1PP3E7W",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_TB_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.B6RuPpusIn5} == true",
+            "id": "YZSI65Gx7X5",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any TB services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any TB services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "DlZBn6pVBYZ",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "LlmWZzMcjSa",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_TB_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.B6RuPpusIn5} == true",
+            "id": "KwEuOKdfncR",
+            "legendSets": [],
+            "name": "HFA - Facilities offering any tuberculosis services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering any tuberculosis services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "nnHDp3btl2r",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "V4AW8xlu378",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_CERVICAL_CANCER_SCREENING_WITH_ACETIC_ACID",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.SB5rPGRqq3S} == true",
+            "id": "IL9tuXFCqO9",
+            "legendSets": [],
+            "name": "HFA - Facilities offering cervical cancer screening with acetic acid or Lugol’s iodine (VIA or VIA/VILI)",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Cervical cancer screening with acetic acid",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pxFX8IKLHYy",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "A0HziyQWiWD",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_DIABETES_SERVICES",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.IleTyEstbZ3} == true",
+            "id": "PIcKLhOPTr0",
+            "legendSets": [],
+            "name": "HFA - Facilities offering diabetes services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering diabetes services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ZV1av4ldXnQ",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "s4mOPHzCbEG",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_DX_AND_TX_HYPERTENSION",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.rm00VocwAkL} == true",
+            "id": "clXBKi1dyRL",
+            "legendSets": [],
+            "name": "HFA - Facilities offering diagnosis and treatment of hypertension",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering diagnosis and tx hypertension",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "hhYkFaEptA8",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "zxLlSMlXlVc",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_FAMILY_PLANNING",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.d90ZpqHYvk0} == true",
+            "id": "o6DEWRbjwAq",
+            "legendSets": [],
+            "name": "HFA - Facilities offering family planning",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering family planning",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "EAA9sIJ0Hq2",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "WzerdpPs9Ga",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_HIV_CARE_SUPPORT",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.ee1ZTOL80hx} == true ||#{HB4aF9Lg3wU.tKatq8QO7WA} == true",
+            "id": "yH8F2qH80WR",
+            "legendSets": [],
+            "name": "HFA - Facilities offering HIV care and support",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "HFA - Facilities offering HIV care and support",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "QfZltmVJXDa",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "q9RFwiV3Ml9",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_HIV_DIAGNOSTIC_TESTING",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.WfmACfSH6Pl} == true",
+            "id": "hJN1cryiZaI",
+            "legendSets": [],
+            "name": "HFA - Facilities offering HIV diagnostic testing",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering HIV diagnostic testing",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HTr8fjtpF50",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "QVyXdeZpFtw",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_HIV_TESTING_AND_COUNSELLING",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.WfmACfSH6Pl} == true",
+            "id": "M9IUsmEHzGv",
+            "legendSets": [],
+            "name": "HFA - Facilities offering HIV testing and counselling services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "HIV testing and counselling services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "XW3aIDnVKrK",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "MV7ftxHadVH",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_HIV_DIAGNOSTIC_CAPACITY",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.aa9ulv0QpC3} == true",
+            "id": "egtOfgNbB0J",
+            "legendSets": [],
+            "name": "HFA - Facilities offering HIV testing with HIV diagnostic capacity",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Offering HIV testing with HIV diagnostic capacity",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HDVVoI7bWiQ",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "nBXbX1J3oos",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_IMMUNIZATION_AND_FRIDGE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.fD7rQfQlW1H} == 'FRIDGE_YES'",
+            "id": "Sia9wDeHzde",
+            "legendSets": [],
+            "name": "HFA - Facilities offering immunization services with refrigerator",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering immunization with refrigerator",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HaIt6g24lIR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "hI9EI2exIYp",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_IMMUNIZATION_AND_TEMP_MONITORING_DEVICE",
+            "expression": "V{org_unit_count}",
+            "filter": "d2:hasValue(#{UBZVkxf6mz3.O1YE4RpI3dm}) || d2:hasValue(#{UBZVkxf6mz3.EKvGoGwtbSu}) || d2:hasValue(#{UBZVkxf6mz3.Uv6ztOpQJ09})",
+            "id": "KzuApYhzbqR",
+            "legendSets": [],
+            "name": "HFA - Facilities offering immunization services with temperature monitoring device in the refrigerator",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Immunization with temperature monitoring device",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "sex2laWBhFC",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "wdyYOtfEd1s",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_MALARIA_DIAGNOSIS",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.SK4pHtEYj3C} == true",
+            "id": "jpFLQzJUWaw",
+            "legendSets": [],
+            "name": "HFA - Facilities offering malaria diagnosis",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering malaria diagnosis",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "BTTx6ND6oCr",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ZHHHpkl9QNM",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_MALARIA_DIAGNOSIS",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.SK4pHtEYj3C} == true && #{HB4aF9Lg3wU.QhdyXYeUceZ} == true",
+            "id": "bVr8AwbFP9t",
+            "legendSets": [],
+            "name": "HFA - Facilities offering malaria diagnosis and treatment",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering malaria diagnosis and tx",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "sYvyoNT0xsy",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "bujD3RkM943",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_MALARIA_TREATMENT",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.QhdyXYeUceZ} == true",
+            "id": "Jd69Ciqx7vS",
+            "legendSets": [],
+            "name": "HFA - Facilities offering malaria treatment",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering malaria treatment",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "FooacZjzXbR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "VCVkKAs87OR",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_MATERNAL_AND_POSTPARTUM",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.kjZSUxte36R} == true || #{HB4aF9Lg3wU.NpcZNmJ7MR1} == true",
+            "id": "bqlSXBwXAF1",
+            "legendSets": [],
+            "name": "HFA - Facilities offering maternal and/or newborn postpartum care",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering maternal or postpartum care",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "StsU3lV8iu7",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "dhQ4fH44TgG",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_MECHANICAL_VENTILATION",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.USSZwThE07D} == true",
+            "id": "MUqSdEnxdC5",
+            "legendSets": [],
+            "name": "HFA - Facilities offering mechanical ventilation",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering mechanical ventilation",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "b1d63HjyNlS",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "GPUGr9P5eLE",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OXYGEN_AVAILABLE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.IktFmxLWU7m} == true && #{UBZVkxf6mz3.PzOYOzNTVVt} == true",
+            "id": "Jg4IAnv0cPm",
+            "legendSets": [],
+            "name": "HFA - Facilities offering oxygen services with oxygen available",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering oxygen with oxygen available",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "HbQfEkmvHpa",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "AwUm2qGYSfd",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_PULSE_OXIMETER",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.IktFmxLWU7m} == true && #{UBZVkxf6mz3.XvGeoUSu2IS} == true",
+            "id": "Y5Z6qsaD6ge",
+            "legendSets": [],
+            "name": "HFA - Facilities offering oxygen services with pulse oximeter",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering oxygen with pulse oximeter",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "weUH2LgfKZz",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ZM9XYnCYW97",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_POSTPARTUM_CARE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.NpcZNmJ7MR1} == true",
+            "id": "txm5RdkO8rj",
+            "legendSets": [],
+            "name": "HFA - Facilities offering postpartum care (PNC)",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering postpartum care (PNC)",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "j0WwHH7n0Kd",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "mJYLtPsLPPP",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_PREVENTIVE_CURATIVE_SERVICES_CHILDREN",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.pydQldwJU22} == true",
+            "id": "uyTRVmgdquj",
+            "legendSets": [],
+            "name": "HFA - Facilities offering preventive and/or curative care services for children under 5",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Preventive/curative care for children under 5",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "VOOrdhtAJys",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "qDIbFQtlNWE",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_REHABILITATIVE_CARE",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.bIoxeJHwDtR} == true",
+            "id": "mX3K6rqsUce",
+            "legendSets": [],
+            "name": "HFA - Facilities offering rehabilitative care",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering rehabilitative care",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "VKR7G3h5G2l",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "fvFDIYzQWzq",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_SERVICES_RAPE_SURVIVORS",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.fS3OANkMCvs} == true",
+            "id": "VzrUxWYUlCB",
+            "legendSets": [],
+            "name": "HFA - Facilities offering services for survivors of rape and/or intimate partner/sexual violence",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Services for rape survivors or sexual violence",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Tl9pjw39YZK",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "LfYT99OcKny",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_TB_DIAGNOSIS_AND_TX",
+            "expression": "V{org_unit_count}",
+            "filter": " #{HB4aF9Lg3wU.sNKvWU07PD0} == true || #{HB4aF9Lg3wU.RH5wGEc1Lg4} == true",
+            "id": "DTeyRm9ShXU",
+            "legendSets": [],
+            "name": "HFA - Facilities offering TB diagnosis and treatment services",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering TB diagnosis and tx services",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "T8ImIg4aWrP",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "o8AHU2SSvLW",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_TB_DIAGNOSIS_IN_ADULTS_BY_RDT",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.V5STsitJr7b} == true",
+            "id": "ZxlROgmvuVr",
+            "legendSets": [],
+            "name": "HFA - Facilities offering TB diagnosis in adults by rapid test (GeneXpert MTB/RIF)",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering TB diagnosis in adults by RDT",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "VESWeUXOQyh",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "JZBFLhqXjks",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_OFFERING_TB_DIAGNOSTIC_TEST",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.sNKvWU07PD0} == true",
+            "id": "txetRghemb7",
+            "legendSets": [],
+            "name": "HFA - Facilities offering tuberculosis diagnostic test",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities offering tuberculosis diagnostic test",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "GBp27ZNuZfY",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "bvYPSHsZxC4",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_BLOOD_PRESSURE_APPARATUS",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.Y44MWG7LIrE} == true",
+            "id": "YBbqceNjlgg",
+            "legendSets": [],
+            "name": "HFA - Facilities with blood pressure apparatus",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with blood pressure apparatus",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "tB0LFlUbfV7",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "S0jaOPGHBmE",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_BLOOD_TRANSFUSION",
+            "expression": "V{org_unit_count}",
+            "filter": "#{HB4aF9Lg3wU.ZfIvNSY6tln} == true",
+            "id": "bmztTBrwjye",
+            "legendSets": [],
+            "name": "HFA - Facilities with blood transfusion",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with blood transfusion",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "PJsOgyIBDNn",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "yiHs2hdHhRa",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_COMMUNICATIONS_SYSTEM",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.IfaW02phjkH} == 'COMMS_YES'",
+            "id": "NbjBrcEzNCF",
+            "legendSets": [],
+            "name": "HFA - Facilities with communications system",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with communications system",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "lsuAmdJ2jVe",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "bcfalslPEvz",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_COMPUTER_WITH_INTERNET",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.pLKN9hzAcct} == 'YES'",
+            "id": "QMmAo59wepR",
+            "legendSets": [],
+            "name": "HFA - Facilities with computer with internet",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with computer with internet",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "WOw0J2OKZC4",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Vp33OOAhetO",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_OXYGEN_ADMINISTRATION",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.IktFmxLWU7m} == true",
+            "id": "UaijrjrlsoM",
+            "legendSets": [],
+            "name": "HFA - Facilities with oxygen administration",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with oxygen administration",
+            "translations": []
+        },
+        {
+            "aggregationType": "COUNT",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "YBtviRLZTcI",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "uXoALYcIhGy",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_FACILITIES_WITH_POWER",
+            "expression": "V{org_unit_count}",
+            "filter": "#{UBZVkxf6mz3.IB9THMl7BDB} == true",
+            "id": "isRXwIuSyqP",
+            "legendSets": [],
+            "name": "HFA - Facilities with power",
+            "program": {
+                "id": "YbZsCH0wrp2"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Facilities with power",
+            "translations": []
+        },
+        {
+            "aggregationType": "SUM",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "o8e1sugS07U",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Q9eXgW0MPqQ",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_MIDWIFERY_PROFESSIONALS",
+            "expression": "#{HB4aF9Lg3wU.jO2vIvEaOmQ}  + #{HB4aF9Lg3wU.i3tsjGOn5rR}",
+            "id": "x5VdHhaGZjK",
+            "legendSets": [],
+            "name": "HFA -  Midwifery professionals",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": " Midwifery professionals",
+            "translations": []
+        },
+        {
+            "aggregationType": "LAST",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Lc0ts3WPyfa",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "EIEoFSEE5Tx",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_INPATIENT_BEDS",
+            "expression": "#{HB4aF9Lg3wU.IkFDgWxu9Mv}",
+            "id": "ZlXZAFLfyUN",
+            "legendSets": [],
+            "name": "HFA -  Number of inpatient beds",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": " Number of inpatient beds",
+            "translations": []
+        },
+        {
+            "aggregationType": "SUM",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Foa2CLIukLT",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "v2NRWPmTKks",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_MEDICAL_DOCTORS",
+            "expression": "#{HB4aF9Lg3wU.sUUqDmgFaNE} + #{HB4aF9Lg3wU.fh98eysSUv5}",
+            "id": "eszOwMf2s69",
+            "legendSets": [],
+            "name": "HFA -  Number of Medical doctors",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Number of Medical Doctors",
+            "translations": []
+        },
+        {
+            "aggregationType": "LAST_IN_PERIOD",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "qkZ8HTFw34Z",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "WM6LUHhrXKY",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_NURSING_MIDWIFERY_PROFESSIONALS",
+            "expression": "#{HB4aF9Lg3wU.DxCLTk69Equ} + #{HB4aF9Lg3wU.jO2vIvEaOmQ} + #{HB4aF9Lg3wU.i3tsjGOn5rR}",
+            "id": "wHYHwNM5K7s",
+            "legendSets": [],
+            "name": "HFA -  Nursing and midwifery professionals",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": " Nursing and midwifery professionals",
+            "translations": []
+        },
+        {
+            "aggregationType": "LAST",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "BUWojC5r2fz",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "pMFXqyUUPRO",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_PARAMEDICAL_PRACTITIONERS",
+            "expression": "#{HB4aF9Lg3wU.lmWi0Mrae0j}",
+            "id": "xEicJqwoeWL",
+            "legendSets": [],
+            "name": "HFA -  Paramedical practitioners ",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": " Paramedical practitioners",
+            "translations": []
+        },
+        {
+            "aggregationType": "LAST_IN_PERIOD",
+            "analyticsPeriodBoundaries": [
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "UT0APCXbxZi",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "BVA4G6X4XZb",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                }
+            ],
+            "analyticsType": "EVENT",
+            "attributeValues": [],
+            "code": "AN_HFA_AUTHORIZED_INPATIENT_BEDS",
+            "expression": "#{HB4aF9Lg3wU.vBC5VwN6X71}",
+            "id": "gIHpJCK4yYV",
+            "legendSets": [],
+            "name": "HFA - Total number of official authorized inpatient beds",
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "BNYAd8TOiYQ": {
+                        "access": "r-------",
+                        "id": "BNYAd8TOiYQ"
+                    },
+                    "fxZIzpKSMVB": {
+                        "access": "rw------",
+                        "id": "fxZIzpKSMVB"
+                    },
+                    "q21XFZKQj5k": {
+                        "access": "r-------",
+                        "id": "q21XFZKQj5k"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Total number of official authorized inpatient beds",
+            "translations": []
+        }
+    ],
     "programNotificationTemplates": [],
     "programRuleActions": [
         {
@@ -8116,6 +11997,23 @@
                 "id": "tc9dOoIduiU"
             },
             "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "content": "Select all that apply",
+            "dataElement": {
+                "id": "GwJaZbjYESb"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "b8rJona4Qi7",
+            "programRule": {
+                "id": "QpkZ7DsR4wb"
+            },
+            "programRuleActionType": "DISPLAYTEXT",
             "translations": []
         },
         {
@@ -8216,22 +12114,6 @@
         },
         {
             "dataElement": {
-                "id": "RH5wGEc1Lg4"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "DpeA0xToTbi",
-            "programRule": {
-                "id": "LULwcSKz3ql"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "dataElement": {
                 "id": "tO9vDVU0SzH"
             },
             "evaluationEnvironments": [
@@ -8274,6 +12156,22 @@
             "id": "eQIW4u0PyeQ",
             "programRule": {
                 "id": "iMaQQpP749p"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
+                "id": "u22LvidmHCO"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "eUDJZdGGpxr",
+            "programRule": {
+                "id": "fyU9nTSJPe5"
             },
             "programRuleActionType": "HIDEFIELD",
             "translations": []
@@ -8370,6 +12268,22 @@
             "id": "Ggd5ZBrL2fQ",
             "programRule": {
                 "id": "Jor5ixdnVeo"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
+                "id": "IkFDgWxu9Mv"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "giVUxRguCuJ",
+            "programRule": {
+                "id": "fyU9nTSJPe5"
             },
             "programRuleActionType": "HIDEFIELD",
             "translations": []
@@ -8488,6 +12402,22 @@
         },
         {
             "dataElement": {
+                "id": "nQkMVIng74Y"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "IGNoYzq3GAV",
+            "programRule": {
+                "id": "fyU9nTSJPe5"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
                 "id": "crdD7bLViVS"
             },
             "evaluationEnvironments": [
@@ -8584,6 +12514,22 @@
         },
         {
             "dataElement": {
+                "id": "vBC5VwN6X71"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "lhx9jVwJ54r",
+            "programRule": {
+                "id": "fyU9nTSJPe5"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
                 "id": "V5STsitJr7b"
             },
             "evaluationEnvironments": [
@@ -8642,22 +12588,6 @@
             "id": "LYfGOafLdQt",
             "programRule": {
                 "id": "RiOUEyGqnw7"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "dataElement": {
-                "id": "kjZSUxte36R"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "m2c7pThLulY",
-            "programRule": {
-                "id": "fyU9nTSJPe5"
             },
             "programRuleActionType": "HIDEFIELD",
             "translations": []
@@ -8808,22 +12738,6 @@
         },
         {
             "dataElement": {
-                "id": "RH5wGEc1Lg4"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "P3NPFC4WSph",
-            "programRule": {
-                "id": "LULwcSKz3ql"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "dataElement": {
                 "id": "tO9vDVU0SzH"
             },
             "evaluationEnvironments": [
@@ -8898,22 +12812,6 @@
             "id": "s2kff5e7C8R",
             "programRule": {
                 "id": "skPoSAThh68"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "dataElement": {
-                "id": "sNKvWU07PD0"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "sFvuufESgAZ",
-            "programRule": {
-                "id": "LULwcSKz3ql"
             },
             "programRuleActionType": "HIDEFIELD",
             "translations": []
@@ -9154,22 +13052,6 @@
             "id": "YgCJI5j9cL3",
             "programRule": {
                 "id": "D8bNw57dwng"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "dataElement": {
-                "id": "sNKvWU07PD0"
-            },
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "YN2jJnYDUK9",
-            "programRule": {
-                "id": "LULwcSKz3ql"
             },
             "programRuleActionType": "HIDEFIELD",
             "translations": []
@@ -9448,6 +13330,22 @@
                 "id": "K2TmubtzfBP"
             },
             "programRuleActionType": "SETMANDATORYFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
+                "id": "RH5wGEc1Lg4"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "DpeA0xToTbi",
+            "programRule": {
+                "id": "LULwcSKz3ql"
+            },
+            "programRuleActionType": "HIDEFIELD",
             "translations": []
         },
         {
@@ -9936,6 +13834,22 @@
         },
         {
             "dataElement": {
+                "id": "RH5wGEc1Lg4"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "P3NPFC4WSph",
+            "programRule": {
+                "id": "LULwcSKz3ql"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
                 "id": "tJEW5Ntq9Ys"
             },
             "evaluationEnvironments": [
@@ -10129,6 +14043,22 @@
         },
         {
             "dataElement": {
+                "id": "sNKvWU07PD0"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "sFvuufESgAZ",
+            "programRule": {
+                "id": "LULwcSKz3ql"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
                 "id": "uzRq5wqz3tE"
             },
             "evaluationEnvironments": [
@@ -10306,6 +14236,23 @@
             "translations": []
         },
         {
+            "content": "Select all that apply",
+            "dataElement": {
+                "id": "GwJaZbjYESb"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "XoT5ssIT3yg",
+            "programRule": {
+                "id": "n74aogoUiwp"
+            },
+            "programRuleActionType": "SHOWWARNING",
+            "translations": []
+        },
+        {
             "dataElement": {
                 "id": "wf71D1L86YP"
             },
@@ -10335,6 +14282,22 @@
                 "id": "HYRDjY4ck2m"
             },
             "programRuleActionType": "SETMANDATORYFIELD",
+            "translations": []
+        },
+        {
+            "dataElement": {
+                "id": "sNKvWU07PD0"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "YN2jJnYDUK9",
+            "programRule": {
+                "id": "LULwcSKz3ql"
+            },
+            "programRuleActionType": "HIDEFIELD",
             "translations": []
         },
         {
@@ -11280,10 +15243,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "vGWRlQEtjTx"
+                    "id": "lPH7NRuZ4Xv"
                 },
                 {
-                    "id": "lPH7NRuZ4Xv"
+                    "id": "vGWRlQEtjTx"
                 }
             ],
             "translations": []
@@ -11299,10 +15262,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "fBjMjYil6FI"
+                    "id": "hf0LTAnKoDO"
                 },
                 {
-                    "id": "hf0LTAnKoDO"
+                    "id": "fBjMjYil6FI"
                 }
             ],
             "translations": []
@@ -11385,9 +15348,6 @@
             },
             "programRuleActions": [
                 {
-                    "id": "xADhfPMHbJD"
-                },
-                {
                     "id": "QUkJFQx9ppf"
                 },
                 {
@@ -11395,6 +15355,9 @@
                 },
                 {
                     "id": "hNXiVH5XWMz"
+                },
+                {
+                    "id": "xADhfPMHbJD"
                 }
             ],
             "translations": []
@@ -11426,13 +15389,13 @@
             },
             "programRuleActions": [
                 {
-                    "id": "Oirv3ur1Jg2"
-                },
-                {
                     "id": "Fh3Cv5pPHX0"
                 },
                 {
                     "id": "x0nant4YKK5"
+                },
+                {
+                    "id": "Oirv3ur1Jg2"
                 }
             ],
             "translations": []
@@ -11467,19 +15430,28 @@
             },
             "programRuleActions": [
                 {
-                    "id": "bNeGMQXu9Sm"
+                    "id": "giVUxRguCuJ"
                 },
                 {
                     "id": "U077XdnOu5e"
                 },
                 {
-                    "id": "m2c7pThLulY"
-                },
-                {
                     "id": "i7y29lDMr3W"
                 },
                 {
+                    "id": "bNeGMQXu9Sm"
+                },
+                {
+                    "id": "IGNoYzq3GAV"
+                },
+                {
+                    "id": "eUDJZdGGpxr"
+                },
+                {
                     "id": "z9wNzE45Dzk"
+                },
+                {
+                    "id": "lhx9jVwJ54r"
                 }
             ],
             "translations": []
@@ -11527,10 +15499,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "A1JgAtVJZTJ"
+                    "id": "XNlhNtfSKys"
                 },
                 {
-                    "id": "XNlhNtfSKys"
+                    "id": "A1JgAtVJZTJ"
                 },
                 {
                     "id": "zl0horwBQet"
@@ -11682,13 +15654,13 @@
                     "id": "MaLgarPRgdH"
                 },
                 {
+                    "id": "s2kff5e7C8R"
+                },
+                {
                     "id": "u5gBCwEiX8h"
                 },
                 {
                     "id": "cKyE3TWm1pR"
-                },
-                {
-                    "id": "s2kff5e7C8R"
                 }
             ],
             "translations": []
@@ -11721,6 +15693,9 @@
             "programRuleActions": [
                 {
                     "id": "ehVQcxxFrs9"
+                },
+                {
+                    "id": "b8rJona4Qi7"
                 }
             ],
             "translations": []
@@ -11843,10 +15818,10 @@
                     "id": "eESPtubS3cw"
                 },
                 {
-                    "id": "QAuAgzqdZBO"
+                    "id": "q2qcmNwtmE8"
                 },
                 {
-                    "id": "q2qcmNwtmE8"
+                    "id": "QAuAgzqdZBO"
                 }
             ],
             "translations": []
@@ -11862,13 +15837,13 @@
             },
             "programRuleActions": [
                 {
+                    "id": "qzyoZyExvwt"
+                },
+                {
                     "id": "W8e9llxRRJE"
                 },
                 {
                     "id": "oOFexddBVzG"
-                },
-                {
-                    "id": "qzyoZyExvwt"
                 }
             ],
             "translations": []
@@ -11919,10 +15894,10 @@
                     "id": "IR9lY0pt4lj"
                 },
                 {
-                    "id": "erHAmGWckzw"
+                    "id": "ZYcsOZVBoZ4"
                 },
                 {
-                    "id": "ZYcsOZVBoZ4"
+                    "id": "erHAmGWckzw"
                 },
                 {
                     "id": "IUoy3xrNih7"
@@ -11979,10 +15954,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "CGYrsrt3qF7"
+                    "id": "OJaNFK3DNhO"
                 },
                 {
-                    "id": "OJaNFK3DNhO"
+                    "id": "CGYrsrt3qF7"
                 },
                 {
                     "id": "quzoMnY8DTU"
@@ -12064,10 +16039,10 @@
                     "id": "Ke8wmydmSl0"
                 },
                 {
-                    "id": "k51AQ9PimlC"
+                    "id": "ejL7axOYdQj"
                 },
                 {
-                    "id": "ejL7axOYdQj"
+                    "id": "k51AQ9PimlC"
                 },
                 {
                     "id": "EGDRCEm9u7r"
@@ -12140,10 +16115,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "He7F405XpXi"
+                    "id": "eUPoTDpMwmg"
                 },
                 {
-                    "id": "eUPoTDpMwmg"
+                    "id": "He7F405XpXi"
                 }
             ],
             "translations": []
@@ -12222,13 +16197,13 @@
                     "id": "HqiJ878OCOc"
                 },
                 {
-                    "id": "pDrczhxDxi5"
-                },
-                {
                     "id": "Nok4MuqBYuf"
                 },
                 {
                     "id": "TeP2R6AguzI"
+                },
+                {
+                    "id": "pDrczhxDxi5"
                 }
             ],
             "translations": []
@@ -12260,10 +16235,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "JPkJcQczn4g"
+                    "id": "LQIjypdLx7Q"
                 },
                 {
-                    "id": "LQIjypdLx7Q"
+                    "id": "JPkJcQczn4g"
                 }
             ],
             "translations": []
@@ -12440,6 +16415,22 @@
             "programRuleActions": [
                 {
                     "id": "CFIjXSQEe4h"
+                }
+            ],
+            "translations": []
+        },
+        {
+            "condition": " #{CHW_SERVICE_PROVISION} == true",
+            "description": "Show message if CHWs services provided",
+            "id": "n74aogoUiwp",
+            "name": "HFA - Show message if CHWs services provided",
+            "priority": 1,
+            "program": {
+                "id": "rSLqsO4n9ds"
+            },
+            "programRuleActions": [
+                {
+                    "id": "XoT5ssIT3yg"
                 }
             ],
             "translations": []
