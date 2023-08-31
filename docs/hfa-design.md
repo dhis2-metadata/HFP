@@ -1,1 +1,1 @@
-# HFA - Health Facility Attributes {#hfa-design}
+# HFP - Health Facility Profile {#hfp-design}
