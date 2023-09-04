@@ -10364,7 +10364,7 @@
         "DHIS2Build": "4119e92",
         "DHIS2Version": "2.38.4.3",
         "code": "HFP",
-        "description": "HFP beta version",
+        "description": "Health Facility Profile",
         "healthAreaCode": "HFP",
         "healthAreaName": "Health Facility Profile",
         "lastUpdated": "20230904T174101",
