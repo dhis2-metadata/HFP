@@ -56,4 +56,33 @@ The DHIS2 Health Facility Profile configuration is structured in two (2) major c
 
 The dashboard included in the toolkit serve as an example of integrated analysis of Health Facility Attributes routinely reported within a HMIS for a targeted district
 
+**IMAGES DASHBOARD**
+
+### Analytics
+
+In the context of a cohesive and integrated routine Health Management Information System (rHMIS) at the national level, the Analytics component plays a pivotal role in unlocking the full potential of health facility attributes data. The integration of health facility profiles into the HMIS provides a rich source of information that, when triangulated with other datasets, offers a holistic understanding of the healthcare landscape.
+
+Implementations may vary based on design, relevance, scale, and content, but certain cross-cutting principles and suggestions are applicable across diverse local implementations. The integration of health facility attributes data within the HMIS sets the stage for comprehensive analytics, enabling data triangulation with various other datasets. This approach fosters a more nuanced analysis of healthcare service delivery by triangulating information on service availability, staff distribution, and material resources.
+
+#### Data triangulation
+
+One of the key advantages of data triangulation lies in its ability to provide a multidimensional perspective on healthcare facility operations. By correlating information on service availability with staff distribution, health planners can identify areas of potential service gaps or areas where workforce optimization is needed. Similarly, triangulating material availability data with service and staff information facilitates a deeper understanding of resource allocation and utilization patterns.
+
+In the perspective of an integrated rHMIS at the national level, data triangulation becomes a powerful tool for evidence-based decision-making. This approach enables health authorities to make informed decisions regarding resource allocation, infrastructure development, and service optimization. By leveraging the interconnectedness of health facility attributes data with other datasets, the analytics component not only enhances the granularity of insights but also contributes to a more responsive and efficient healthcare system.
+
+Ultimately, the integration of health facility attributes data into the HMIS, coupled with robust analytics and data triangulation practices, empowers health planners to move beyond isolated metrics and gain a comprehensive understanding of the healthcare landscape. This section explores the significance of data triangulation in the context of the Health Facility Profile toolkit within DHIS2, emphasizing its role in promoting a data-driven and integrated approach to healthcare decision-making.
+
+##### Health staff density VS population map
+
+- **Population layer** (either total population or disaggregated by sex and age if and when relevant). Ensure that a Google Earth account is available to import the population data into the instance from the Google Earth database.
+	OR
+- **Building footprints layer:** the layer allows users to see what portion of a surface is covered by all the footprints of buildings belonging to the population under analysis. If available, the layer will highlight easily the most remote buildings vs the facilities
+- **Facility layer:** Map the geographic location of the facilities and add a radius to highlight the catchment area of the facility. The system defaults the radius to 5000 m, though the implementation should refer to the national policy of standard measurement radio for population served. This approach is particularly recommended where the DHIS2 version is below 2.39 and where there is no capacity to apply the catchment area and distances as available in the CrossCut application.
+- **Thematic layer:** choropleth or bubbles, accordingly if proportion or abosulte numbers are under analysis. The layer will use the indicators of density of health staff (GPs, nurses, midwives, laboratory technicians, etc).
+
+The buffer highlighting the radius of service of the health facilities will highlight any uncovered population, particularly if of high density. 
+The density of health staff could be easily colour coded via a legend as per national policy in order to underline the appropriateness of the number of available staff (e.g. less than 25 nurses per 100,000 population can be set as red, and more than 25 per 100,000 population as green - threshold based on [WHO NLiS](https://www.who.int/data/nutrition/nlis/info/density-of-nurses-and-midwives))
+
+
+
 
