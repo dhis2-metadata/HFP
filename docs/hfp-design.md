@@ -72,17 +72,37 @@ In the perspective of an integrated rHMIS at the national level, data triangulat
 
 Ultimately, the integration of health facility attributes data into the HMIS, coupled with robust analytics and data triangulation practices, empowers health planners to move beyond isolated metrics and gain a comprehensive understanding of the healthcare landscape. This section explores the significance of data triangulation in the context of the Health Facility Profile toolkit within DHIS2, emphasizing its role in promoting a data-driven and integrated approach to healthcare decision-making.
 
+It is of great importance to underline that the ***triangulation exercise is not able to provide an inferential conclusion***, but, rather, to trigger questions and further research to deepen the type of results one can observe from the mapping - are the key populations at risk (eg children under 5) able to reach a health facility within the national coverage buffer radius? Are the highest deaths linked to a higher concentration of population, to the lack of health staff, or any other geographical factor? It is possible to use two layers to investigate possible environmental and geographical factors in the equation:
+
+- **Landcover layer:** the layer will provide information on the biophysical cover of the area (water, urban areas, forests, etc). The presence of lakes or any other water basin could be important as a factor for malaria.
+- **Temperature layer:** temperature, together with any entomological and vector control data could feed into the triangulation exercise to map the presence of vectors in the area.
+- **Elevation layer:** like the temperature layer, elevation plays an important role in the vector distribution as well as in the ability to reach the available health facilities. The layer could potentially highlight that although the facilities are covering certain areas within the buffer, the radius only considers the crow’s flight distance between the area and the health center. The presence of mountainous areas could play a role in the health seeking patterns of the population, impacting in turn the health outcomes values.
+
 ##### Health staff density VS population map
 
 - **Population layer** (either total population or disaggregated by sex and age if and when relevant). Ensure that a Google Earth account is available to import the population data into the instance from the Google Earth database.
 	OR
 - **Building footprints layer:** the layer allows users to see what portion of a surface is covered by all the footprints of buildings belonging to the population under analysis. If available, the layer will highlight easily the most remote buildings vs the facilities
 - **Facility layer:** Map the geographic location of the facilities and add a radius to highlight the catchment area of the facility. The system defaults the radius to 5000 m, though the implementation should refer to the national policy of standard measurement radio for population served. This approach is particularly recommended where the DHIS2 version is below 2.39 and where there is no capacity to apply the catchment area and distances as available in the CrossCut application.
-- **Thematic layer:** choropleth or bubbles, accordingly if proportion or abosulte numbers are under analysis. The layer will use the indicators of density of health staff (GPs, nurses, midwives, laboratory technicians, etc).
+- **Thematic layer:** choropleth when proportions are under analysis and bubbles when numbers are. The layer will use the indicators of density of health staff (GPs, nurses, midwives, laboratory technicians, etc).
 
 The buffer highlighting the radius of service of the health facilities will highlight any uncovered population, particularly if of high density. 
 The density of health staff could be easily colour coded via a legend as per national policy in order to underline the appropriateness of the number of available staff (e.g. less than 25 nurses per 100,000 population can be set as red, and more than 25 per 100,000 population as green - threshold based on [WHO NLiS](https://www.who.int/data/nutrition/nlis/info/density-of-nurses-and-midwives))
 
+**EXAMPLE MAP**
 
+##### Health outcomes/volume of service VS population map
 
+- **Population layer** (either total population or disaggregated by sex and age if and when relevant). Ensure that a Google Earth account is available to import the population data into the instance from the Google Earth database.
+- **Facility layer:** Map the geographic location of the facilities and add a radius to highlight the catchment area of the facility. The system defaults the radius to 5000 m, though the implementation should refer to the national policy of standard measurement radio for population served. This approach is particularly recommended where the DHIS2 version is below 2.39 and where there is no capacity to apply the catchment area and distances as available in the CrossCut application. 
+- **Thematic layer:** choropleth when proportions are under analysis and bubbles when numbers are. Depending on the available data present in the local HMIS information such as malaria deaths, volume of OPD visits, etc can be plotted.
+
+Similarly to the previous map, the population layer will provide the areas of highest concentration, while the facility layer will present the location of the health facilities providing the relevant services and the buffer of coverage as per national policy. 
+Taking into account the example of malaria deaths, the triangulation will show the inhabited areas, the coverage of the facilities providing malaria services, and the health outcome data will plot the areas by number of deaths. In particular, if the national policy states a specific goal to be achieved on the specific indicator, the threshold could be further mapped using a legend separating the facilities achieving the goal and those that are not.
+
+## Tracker
+
+### Tracker Program Structure
+
+The tracker program structure is as follows:
 
