@@ -22,4 +22,38 @@ The HFP toolkit for DHIS2 was designed with support from The Global Fund in coll
 
 ### Background
 
+The Health Facility Profile initiative is born out of a critical necessity—to seamlessly integrate essential health facility attributes data into the national Health Management Information System (HMIS). In the last years, the healthcare landscape underscores the paramount importance of unifying diverse sources of health information for a comprehensive understanding of health service delivery. The primary focus of this initiative lies in recognizing and addressing the pivotal role that health facility attributes play in shaping healthcare accessibility, quality, and responsiveness. The integration of health facility data into the HMIS serves as a linchpin for enhancing the overall efficiency and effectiveness of the healthcare system.
+
+In today's dynamic healthcare environment, the importance of having a centralized repository for health facility attributes cannot be overstated. The integration into the HMIS is designed to streamline data access and analysis, offering a holistic view of healthcare infrastructure readiness, service availability, and emergency preparedness. This approach facilitates evidence-based decision-making at both routine and critical junctures, providing policymakers, administrators, and healthcare professionals with real-time insights into the strengths and potential challenges of health facilities.
+
+Crucially, the Health Facility Profile initiative recognizes the interconnectedness of various factors influencing healthcare delivery, ranging from the accessibility of services to the availability of trained staff and the readiness of infrastructure. By consolidating this information within the HMIS, the initiative seeks to bridge informational gaps, enhance strategic planning, and ultimately contribute to the overall improvement of healthcare services. The integration of health facility attributes data into the HMIS is not merely a technical endeavor; it is a strategic move toward a more integrated, responsive, and data-driven healthcare ecosystem.
+
+### Use case
+
+The Health Facility Profile toolkit within DHIS2 serves as a pivotal tool for streamlining routine health facility data collection and integration into the national Health Management Information System (HMIS). The toolkit is designed to facilitate seamless integration of health facility attributes data, providing a comprehensive view of service availability, infrastructure readiness, and overall facility preparedness. This integration is crucial for enhancing data accessibility and analysis across various healthcare programs and for health planners at different levels.
+
+In countries where routine reporting has been digitized down to the district and health facility levels using DHIS2, the Health Facility Profile toolkit leverages this foundation. This digitization empowers health facilities to periodically self-report metrics, enabling district and higher-level health authorities to respond effectively to healthcare facility needs and optimize service provisioning. The integration of routine Health Facility Profiles (rHFP) data into the national DHIS2 system marks a significant leap forward, fostering enhanced data accessibility and utilization across diverse health programs.
+
+Key features of the Health Facility Profile toolkit that contribute to this flexibility and integration include a dynamic digital questionnaire format. This format allows for the collection of different components of health facility data at different times, catering to specific data needs and facilitating a modular approach to data collection. The toolkit enables countries to add additional questions for more routine monitoring of facility profiles, emphasizing the adaptability of the system to evolving healthcare requirements. Furthermore, the toolkit provides a robust set of indicators and data visualization examples, empowering health planners with the tools needed for in-depth analysis and informed decision-making.
+
+#### Intended users
+
+- **Program managers & staff (national & sub-national):** data users who are responsible for routine analysis of data, using data to improve operations and programme strategies, and providing data-driven feedback to programme staff, including implementing partners, facilities, and other service delivery points
+- **Programme data managers**: users who are responsible for overseeing data collection, management, data quality, analysis and reporting functions
+- **System admins/HMIS focal points**: MOH staff and/or core DHIS2 team responsible for maintaining and improving data systems for health programmes, integrating data streams into national platforms, providing technical support for system design, adaptation and end user support; and maintaining the DHIS2 system over time 
+- **Health facility managers & district health officers**: data collection and analysis for assessment of equipment/service availability, planning and preparedness for both routine or emergency situations
+
+### Design structure
+
+The DHIS2 Health Facility Profile configuration is structured in two (2) major components:
+
+- **Dashboard & indicators:** Example of dashboard for analysis of routine Health Facility Attributes popualted by Program Indicators
+- **Tracker program:** DHIS2 tracker program has been configured for individual-level (health facility) data collection. The tracker program can be used with the DHIS2 web or Androids clients
+
+## Dashbaord & Analytics
+
+### Dashboard
+
+The dashboard included in the toolkit serve as an example of integrated analysis of Health Facility Attributes routinely reported within a HMIS for a targeted district
+
 
