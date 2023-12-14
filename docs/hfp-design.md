@@ -64,13 +64,15 @@ The DHIS2 Health Facility Profile configuration is structured in two (2) major c
 
 The dashboard included in the toolkit serve as an example of integrated analysis of Health Facility Attributes routinely reported within a HMIS for a targeted district
 
-**IMAGES DASHBOARD**
+![HFP dashboard snapshot](resources/images/hfp_dashboard.png)
 
 ### Analytics
 
 In the context of a cohesive and integrated routine Health Management Information System (rHMIS) at the national level, the Analytics component plays a pivotal role in unlocking the full potential of health facility attributes data. The integration of health facility profiles into the HMIS provides a rich source of information that, when triangulated with other datasets, offers a holistic understanding of the healthcare landscape.
 
 Implementations may vary based on design, relevance, scale, and content, but certain cross-cutting principles and suggestions are applicable across diverse local implementations. The integration of health facility attributes data within the HMIS sets the stage for comprehensive analytics, enabling data triangulation with various other datasets. This approach fosters a more nuanced analysis of healthcare service delivery by triangulating information on service availability, staff distribution, and material resources.
+
+![Example of services availability](resources/images/hfp_dashboard_1.png)
 
 #### Data triangulation
 
@@ -97,7 +99,7 @@ It is of great importance to underline that the ***triangulation exercise is not
 The buffer highlighting the radius of service of the health facilities will highlight any uncovered population, particularly if of high density. 
 The density of health staff could be easily colour coded via a legend as per national policy in order to underline the appropriateness of the number of available staff (e.g. less than 25 nurses per 100,000 population can be set as red, and more than 25 per 100,000 population as green - threshold based on [WHO NLiS](https://www.who.int/data/nutrition/nlis/info/density-of-nurses-and-midwives))
 
-**EXAMPLE MAP**
+![Example of health staff density VS population distribution](resources/images/staff_density.png)
 
 ##### Health outcomes/volume of service VS population map
 
