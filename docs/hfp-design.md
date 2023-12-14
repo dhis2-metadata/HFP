@@ -106,3 +106,15 @@ Taking into account the example of malaria deaths, the triangulation will show t
 
 The tracker program structure is as follows:
 
+![HFP tracker program overview](resources/images/HFP_tracker_structure.png)
+
+| **Stage**           | **Description**                                              |
+| ------------------- | ------------------------------------------------------------ |
+| Enrollment          | The enrollment stage collects the basic institutional data about an Health Facility as Facility code, Adress, Facility location, Type of Facility and Managing authority.  **The stage is non-repeatable.** |
+| Healthcare system accessibility |This stage contains the information related to key population groups. **The stage is non-repeatable.** |
+| Visit               | Main stage that collects all the information necessary for the follow-up of the patient and the program. **The stage is repeatable** |
+
+
+
+
+
