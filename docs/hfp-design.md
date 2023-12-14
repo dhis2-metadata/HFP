@@ -134,7 +134,7 @@ It is assumed that an Health Facility should be enrolled only once in the Health
 
 The information reported on the enrollment stage could already ben present as Organisation Unit attributes or Organisation Unit group and therefore needs to be customized prior implemenation to avoid a duplication of information reported
 
-![HFP enrollment](resources/images/ernollment.png)
+![HFP enrollment](resources/images/enrollment.png)
 
 ### Healthcare system accessibility (repeatable)
 
