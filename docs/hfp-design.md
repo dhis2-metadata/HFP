@@ -36,6 +36,14 @@ In countries where routine reporting has been digitized down to the district and
 
 Key features of the Health Facility Profile toolkit that contribute to this flexibility and integration include a dynamic digital questionnaire format. This format allows for the collection of different components of health facility data at different times, catering to specific data needs and facilitating a modular approach to data collection. The toolkit enables countries to add additional questions for more routine monitoring of facility profiles, emphasizing the adaptability of the system to evolving healthcare requirements. Furthermore, the toolkit provides a robust set of indicators and data visualization examples, empowering health planners with the tools needed for in-depth analysis and informed decision-making.
 
+#### Mapping with external system
+
+Many elements of the questionnaire are aligned to subset of questions from the WHO’s [Harmonized Health Facility Assessment (HHFA)](https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/introduction) to allow routine monitoring of core variables in between surveys; as well as providing an opportunity to digitize subsets of the HHFP data in the national DHIS2 as baseline data and a source for triangulation & analysis. For example, a country that conducted an HHFA in 2020 may import the subset for key variables as baseline data; then use the rHFP reporting module to update these and other data variables in 2021. The source of variables in the questionnaire is provided in the metadata code field. Cross-checks have also been made to identify synergy with tools such as HeRAMS (for health emergencies), Global Fund reporting on health systems strengthening, and other commonly requested data such as number of mobile devices available for use at the facility. 
+
+> **Note**
+>
+> The routine Health Facility profiles (rHFP) module does not replace standardized, comprehensive health facility surveys such as the WHO’s HHFA. Rather, the rHFP module is intended to complement such surveys and approaches, enabling countries to capture and analyze data more routinely alongside their health facility service data and other routine data captured in the HMIS. The approach provides a low-cost method for routine updates and ad hoc spot checks of key facility information needed by planners and policy makers on an annual or six-monthly basis. This recommended questionnaire included in this module is not designed to address the measurement of quality of services, or to collect observational/qualitative information. Note that the rHFP is not intended to replace formal processes and procedures for updating the Master Facility List, which may require specialized skills in recording geographic coordinates and authorities for confirming operational status of facilities. However, some information gathered through the rHFP tool may be useful to feed into MFL update processes.
+
 #### Intended users
 
 - **Program managers & staff (national & sub-national):** data users who are responsible for routine analysis of data, using data to improve operations and programme strategies, and providing data-driven feedback to programme staff, including implementing partners, facilities, and other service delivery points
@@ -111,10 +119,137 @@ The tracker program structure is as follows:
 | **Stage**           | **Description**                                              |
 | ------------------- | ------------------------------------------------------------ |
 | Enrollment          | The enrollment stage collects the basic institutional data about an Health Facility as Facility code, Adress, Facility location, Type of Facility and Managing authority.  **The stage is non-repeatable.** |
-| Healthcare system accessibility |This stage contains the information related to key population groups. **The stage is non-repeatable.** |
-| Visit               | Main stage that collects all the information necessary for the follow-up of the patient and the program. **The stage is repeatable** |
+| Healthcare system accessibility |This stage contains the information related to service provision, staffing and management. **The stage is repeatable.** |
+| Healthcare system preparedness  |This stage contains the information related to infrastructure and communications, power and supply, IPC and waste managemn, Medical equipment availability, governance and management systems, review of information and HMIS. **The stage is repeatable** |
 
+### Tracked Entity Type
 
+The DHIS2 Health Facility Profile tracker program allows for the enrollment of a tracked entity type [TET] ‘Health Facility’.
+
+### Enrollment
+
+It is assumed that an Health Facility should be enrolled only once in the Health Facility Profile tracker program as it refers to a static structure.
+
+The information reported on the enrollment stage could already ben present as Organisation Unit attributes or Organisation Unit group and therefore needs to be customized prior implemenation to avoid a duplication of information reported
+
+![HFP enrollment](resources/images/ernollment.png)
+
+### Healthcare system accessibility (repeatable)
+
+The data acquired at this stage are divided in seven (7) sections according to the type of information reported:
+
+- Amount of staff by position
+
+![Amount of staff by position](resources/images/amount_staff_position.png)
+
+- Staff management
+
+![Staff management](resources/images/staff_management.png)
+
+- Availability of generic services: some of the services are shown following spcific program logics
+
+![Availability of generic services](resources/images/availability_generic_services.gif)
+
+- Availability of specific services as HIV/TB/Malaria, NCDs and COVID-19: these services have been kept in separate sections as of particular interest for global reporting
+
+![Availability of specific services](resources/images/availability_specific_services.png)
+
+- Community Health workers supported services
+
+![CHWs supported services](resources/images/CHWs_supported_services.gif)
+
+### Healthcare system preparedness
+
+The data acquired at this stage are divided in eight (8) sections according to the type of information reported:
+
+- Infrastructure - communications
+
+![Infrastracture & communications](resources/images/infrastructure_communications.png)
+
+- Power and cold-chain
+
+![Power and cold-chain](resources/images/power_cold_chain.png)
+
+- IPC and sterilization
+
+![IPC](resources/images/IPC.png)
+
+- Waste management
+
+![Waste management](resources/images/waste_management.png)
+
+- Medical equipment
+
+![Medical equipment](resources/images/medical_equipment.png)
+
+- Governance & management and Health Information System
+
+![Governance & management and HIS](resources/images/governance_management_HIS.png)
+
+### Tracker Data Elements
+
+All data elements configured for the Tracker domain are also included in the Data Element Groups:
+
+- HFP - Healthcare system accessibility [TOsFeelSRtJ]
+- HFP - Healthcare system preparedness [GUQpQH7YKuS]
+
+This serves as a de facto DHIS2 data dictionary for the Health Facility Profile tracker use case. It allows for the data elements to be exported from DHIS2 and used independently of the Tracker program configuration, for example in the case that an implementation redesigns their Tracker from scratch for local workflows and still wants to maintain allignement with the HHFA mapping.
+
+#### Cloned data elements for multiple option selection
+
+Within the repeatable program stages for *Healthcare system accessibility* and *Healthcare system preparedness*, there are a number of data elements that are cloned to allow the selection of multiple options for a given concept, sharing the same option set. This design is implemented as follows:
+
+- Cloning of data elements eligible for multi-option choice
+  - The number of clone of the data element must be the same as the number of options present in the related option set
+  - Each cloned data element has its own UID, name and code
+- Program Rules
+  - Hide the consequent Data Elements if the previous have not been selected
+  - Show error in case the same Option has been selected more than once in the same group of Data Elements
+  
+For example, to capture multiple services provided by Community Health Workers, there are a series of data elements that are cloned to represent each discrete diagnosis:
+
+- HFP - Systems for linking with CHW for service 1 [dyj087dkBml]
+- HFP - Systems for linking with CHW for service 2 [pcFgoO9E45l]
+- HFP - Systems for linking with CHW for service 3 [grdsdCsfNuq]
+- HFP - Systems for linking with CHW for service 4 [eSX1gtZPMP0]
+
+## User Groups
+
+| User group            | Metadata          | Data                 |
+|-----------------------|-------------------|----------------------|
+| HFP - Admin           | Can edit and view | No Access            |
+| HFP - Access          | Can view only     | Can view only        |
+| HFP - Data capture    | Can view only     | Can capture and view |
+
+## Implementation Considerations & Local Adaptation
+
+This chapter describes some of the possibilities for adapting the configuration for local context and needs, as well as implementation considerations that are relevant for the Health Facility Profile use case.
+
+### HMIS integration
+
+The significance of integrating the Health Facility Profile component into the routine Health Management Information System (HMIS) lies in the consolidation of crucial health facility attributes in one centralized platform. This integration eliminates the pitfalls of scattered information across disparate systems, ensuring a unified repository for comprehensive data on service availability, infrastructure readiness, and staff distribution.
+
+By anchoring health facility profiles within the routine HMIS, the consolidation enhances data triangulation capabilities. The amalgamation of health facility attributes with other health information datasets provides a more nuanced understanding of healthcare service delivery. This triangulation allows for correlations between service availability, staff distribution, and material resources, unlocking deeper insights that are vital for strategic planning and resource optimization.
+
+Moreover, the integration of the Health Facility Profile in the HMIS dramatically increases information accessibility for decision-makers. Having all pertinent data in one place streamlines the decision-making process, offering a holistic view of health facility operations. This centralized accessibility empowers decision-makers with the comprehensive insights needed to make informed choices, enhancing the overall effectiveness and responsiveness of healthcare management. In essence, the integration of the Health Facility Profile in the routine HMIS not only simplifies data management but also amplifies the strategic impact of health information for more effective and informed decision-making.
+
+### Importing baseline data from other sources
+
+#### HHFA
+
+With over 80% alignment between the Health Facility Profile (HFP) and Harmonized Health Facility Assessment (HHFA) questionnaires, countries can expedite data analysis in DHIS2. Leveraging this synergy, importing baseline data from the last HHFA enhances the richness of the HFP dataset. By assigning the date of the last HHFA as the Event date in DHIS2, this seamless integration ensures accurate temporal mapping. This strategic approach not only accelerates the value of data analysis but also streamlines the utilization of existing HHFA data within the HFP, optimizing the efficiency and coherence of health information management.
+
+The DHIS2 code field indicates the mapping to the relevant variable from the WHO HHFA tool as follows: *HFP_HHFA_1534_CERICAL_CANCER_TRAINING*: HHFA code --> **1534**
+
+### Data collection VS system maturity
+
+The method of electronic reporting depends largely on the availability of internet/infrastructure and use of DHIS2 at facility level. Implementations may use a hybrid approach depending on readiness to report at the facility level. These are options we have considered most practical for our current understanding of the use case: 
+
+**Option 1: Facility**
+For facilities that are already equipped for electronic routine reporting in DHIS2, they can access the new rHFP questionnaire through DHIS2 and enter self-reported data directly. Some training may be required for facility users to complete the Tracker Program questionnaire and comply with frequency and timing of the reporting. 
+
+**Option 2: District reporting**
+For facilities that don’t have internet connectivity or access to DHIS2, it is recommended that district health officers consider conducting the questionnaire at the facility using an offline mobile device. Where district health offices have tablets, these can be reused for offline data collection during visits to the facility with the data collection tool in the DHIS2 Android Capture app. This app allows syncing with the DHIS2 instance as soon as internet connectivity is restored. 
 
 
 
