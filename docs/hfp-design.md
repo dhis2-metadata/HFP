@@ -251,5 +251,9 @@ For facilities that are already equipped for electronic routine reporting in DHI
 **Option 2: District reporting**
 For facilities that don’t have internet connectivity or access to DHIS2, it is recommended that district health officers consider conducting the questionnaire at the facility using an offline mobile device. Where district health offices have tablets, these can be reused for offline data collection during visits to the facility with the data collection tool in the DHIS2 Android Capture app. This app allows syncing with the DHIS2 instance as soon as internet connectivity is restored. 
 
+## References
 
+WHO. Harmonized Health Facility Assessment (HHFA) [https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/introduction](https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/introduction)
+
+WHO. Density of nurses and midwives (NLIS) [https://www.who.int/data/nutrition/nlis/info/density-of-nurses-and-midwives](https://www.who.int/data/nutrition/nlis/info/density-of-nurses-and-midwives)
 
