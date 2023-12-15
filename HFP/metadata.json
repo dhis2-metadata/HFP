@@ -9255,44 +9255,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#FFA500",
-                    "endValue": 70.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "p9wAqtgK8Q7",
-                    "name": "Fair",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 30.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#F00535",
-                    "endValue": 30.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "vklxvn71d08",
-                    "name": "Poor",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 0.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#18B339",
                     "endValue": 100.0,
                     "externalAccess": false,
@@ -9312,6 +9274,25 @@
                 },
                 {
                     "attributeValues": [],
+                    "color": "#FFA500",
+                    "endValue": 70.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "p9wAqtgK8Q7",
+                    "name": "Fair",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 30.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
                     "color": "#077107",
                     "endValue": 500.0,
                     "externalAccess": false,
@@ -9325,6 +9306,25 @@
                         "users": {}
                     },
                     "startValue": 100.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#F00535",
+                    "endValue": 30.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "vklxvn71d08",
+                    "name": "Poor",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
