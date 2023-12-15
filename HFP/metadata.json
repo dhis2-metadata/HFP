@@ -758,10 +758,10 @@
                     "id": "MYNVL78n857"
                 },
                 {
-                    "id": "u22LvidmHCO"
+                    "id": "pydQldwJU22"
                 },
                 {
-                    "id": "pydQldwJU22"
+                    "id": "u22LvidmHCO"
                 },
                 {
                     "id": "bIoxeJHwDtR"
@@ -905,10 +905,10 @@
                     "id": "FcCoJQffAEk"
                 },
                 {
-                    "id": "kTuAuMIbQX5"
+                    "id": "qI9v8SfY2do"
                 },
                 {
-                    "id": "qI9v8SfY2do"
+                    "id": "kTuAuMIbQX5"
                 },
                 {
                     "id": "jId2hmmkFp2"
@@ -923,13 +923,13 @@
                     "id": "aa9ulv0QpC3"
                 },
                 {
+                    "id": "FE7fpRoAd91"
+                },
+                {
                     "id": "wQcK74W2Vtt"
                 },
                 {
                     "id": "RH5wGEc1Lg4"
-                },
-                {
-                    "id": "FE7fpRoAd91"
                 },
                 {
                     "id": "jO2vIvEaOmQ"
@@ -950,10 +950,10 @@
                     "id": "lmWi0Mrae0j"
                 },
                 {
-                    "id": "pGKqZU5gvtI"
+                    "id": "fzZ2oKnR9OU"
                 },
                 {
-                    "id": "fzZ2oKnR9OU"
+                    "id": "pGKqZU5gvtI"
                 },
                 {
                     "id": "W7VNpDjo0dX"
@@ -1067,6 +1067,9 @@
                     "id": "EclThiOhMJ0"
                 },
                 {
+                    "id": "MCviqjA5QT2"
+                },
+                {
                     "id": "IktFmxLWU7m"
                 },
                 {
@@ -1074,9 +1077,6 @@
                 },
                 {
                     "id": "N0NqRVZLFjm"
-                },
-                {
-                    "id": "MCviqjA5QT2"
                 },
                 {
                     "id": "S9HLamLqpTO"
@@ -1118,10 +1118,10 @@
                     "id": "tw2v4LRTz86"
                 },
                 {
-                    "id": "YISZhIpuzHT"
+                    "id": "o2ECMYKiJ6U"
                 },
                 {
-                    "id": "o2ECMYKiJ6U"
+                    "id": "YISZhIpuzHT"
                 },
                 {
                     "id": "ozymRXudjK6"
@@ -1148,10 +1148,10 @@
                     "id": "rf2EnY7kbVR"
                 },
                 {
-                    "id": "Uv6ztOpQJ09"
+                    "id": "sLyoqyHLIwC"
                 },
                 {
-                    "id": "sLyoqyHLIwC"
+                    "id": "Uv6ztOpQJ09"
                 },
                 {
                     "id": "CB1hBvhA2pb"
@@ -1196,10 +1196,10 @@
                     "id": "SxQCSC86AJm"
                 },
                 {
-                    "id": "PzOYOzNTVVt"
+                    "id": "Z03mOCNs8Lg"
                 },
                 {
-                    "id": "Z03mOCNs8Lg"
+                    "id": "PzOYOzNTVVt"
                 },
                 {
                     "id": "OUc3K8QcqhO"
@@ -1214,10 +1214,10 @@
                     "id": "zsAkQsAuxPD"
                 },
                 {
-                    "id": "crdD7bLViVS"
+                    "id": "vlc1WkhL7NN"
                 },
                 {
-                    "id": "vlc1WkhL7NN"
+                    "id": "crdD7bLViVS"
                 },
                 {
                     "id": "hHk2W4AcqEr"
@@ -6793,7 +6793,7 @@
                 },
                 "users": {}
             },
-            "shortName": "Specify other",
+            "shortName": "Specify other type of internet available",
             "translations": [],
             "valueType": "TEXT",
             "zeroIsSignificant": false
@@ -9380,11 +9380,11 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "Te5yHysUt3d",
+                    "id": "h6pY5B4W84c",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
-                    "name": "Te5yHysUt3d",
+                    "name": "h6pY5B4W84c",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -9445,7 +9445,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "J32IQBiD12k",
+                    "id": "a954Djcpq1t",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -9583,11 +9583,11 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "ByMsokJN5Ci",
+                    "id": "MfIaB2lJ3km",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
-                    "name": "ByMsokJN5Ci",
+                    "name": "MfIaB2lJ3km",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -9648,7 +9648,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "vTjXMOmGnIF",
+                    "id": "WmfXSUMdPXM",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -9786,13 +9786,13 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "aO1bQtXTCAl",
+                    "id": "czTknE1Ge8f",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labelFontWeight": "bold",
                     "labels": false,
                     "layer": "orgUnit",
-                    "name": "aO1bQtXTCAl",
+                    "name": "czTknE1Ge8f",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -9853,7 +9853,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "eZiF6ZMYePp",
+                    "id": "AXnXanxwYEL",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -9992,11 +9992,11 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "Zp0ALIiowqB",
+                    "id": "mJ8x6B7JDHz",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
-                    "name": "Zp0ALIiowqB",
+                    "name": "mJ8x6B7JDHz",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -10057,7 +10057,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "gmYKaRvWRT0",
+                    "id": "SZgUmuMeCJq",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labelFontWeight": "bold",
@@ -10197,11 +10197,11 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "lfQ3YPaBWSS",
+                    "id": "Nqy0TM1nMyR",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
-                    "name": "lfQ3YPaBWSS",
+                    "name": "Nqy0TM1nMyR",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -10263,7 +10263,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "xqOW9dfiNFw",
+                    "id": "sJA14yiVA84",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -10382,6 +10382,7 @@
             "id": "wLNYqDqenu0",
             "mapViews": [
                 {
+                    "areaRadius": 5000,
                     "attributeDimensions": [],
                     "attributeValues": [],
                     "categoryDimensions": [],
@@ -10402,12 +10403,70 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "sdL8FpuBge3",
+                    "id": "HpRvd0Pfq3k",
+                    "interpretations": [],
+                    "itemOrganisationUnitGroups": [],
+                    "layer": "facility",
+                    "name": "HpRvd0Pfq3k",
+                    "opacity": 1.0,
+                    "organisationUnitGroupSetDimensions": [],
+                    "organisationUnitLevels": [
+                        4
+                    ],
+                    "organisationUnits": [
+                        {
+                            "id": "nur030iNgcT"
+                        }
+                    ],
+                    "parentGraphMap": {},
+                    "parentLevel": 0,
+                    "periods": [],
+                    "programIndicatorDimensions": [],
+                    "renderingStrategy": "SINGLE",
+                    "rows": [],
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "sortOrder": 0,
+                    "subscribed": false,
+                    "subscribers": [],
+                    "topLimit": 0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": [],
+                    "userOrganisationUnit": false,
+                    "userOrganisationUnitChildren": false,
+                    "userOrganisationUnitGrandChildren": false
+                },
+                {
+                    "attributeDimensions": [],
+                    "attributeValues": [],
+                    "categoryDimensions": [],
+                    "categoryOptionGroupSetDimensions": [],
+                    "columnDimensions": [],
+                    "columns": [],
+                    "completedOnly": false,
+                    "dataDimensionItems": [],
+                    "dataElementDimensions": [],
+                    "dataElementGroupSetDimensions": [],
+                    "digitGroupSeparator": "SPACE",
+                    "eventClustering": false,
+                    "eventPointRadius": 0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "filterDimensions": [],
+                    "filters": [],
+                    "hideSubtitle": false,
+                    "hideTitle": false,
+                    "id": "JYorZq4aCw1",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
                     "layer": "orgUnit",
-                    "name": "sdL8FpuBge3",
+                    "name": "JYorZq4aCw1",
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [],
@@ -10468,7 +10527,7 @@
                     "filters": [],
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "uPiWI6ptgcq",
+                    "id": "jSuSMcqIMFb",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labelFontWeight": "bold",
@@ -12670,7 +12729,7 @@
         "description": "Health Facility Profile",
         "healthAreaCode": "HFP",
         "healthAreaName": "Health Facility Profile",
-        "lastUpdated": "20231214T123644",
+        "lastUpdated": "20231215T155118",
         "locale": "en",
         "name": "HFP_TRK_DHIS2.38.4.3-en",
         "type": "TRK",
@@ -27066,9 +27125,9 @@
             "topLimit": 0,
             "translations": [],
             "type": "PIVOT_TABLE",
-            "userOrganisationUnit": false,
+            "userOrganisationUnit": true,
             "userOrganisationUnitChildren": false,
-            "userOrganisationUnitGrandChildren": true,
+            "userOrganisationUnitGrandChildren": false,
             "yearlySeries": []
         },
         {
@@ -27632,7 +27691,7 @@
             "colTotals": false,
             "colorSet": "DARK",
             "columnDimensions": [
-                "pe"
+                "ou"
             ],
             "completedOnly": false,
             "cumulativeValues": false,
@@ -27672,7 +27731,7 @@
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
             "filterDimensions": [
-                "ou"
+                "pe"
             ],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
@@ -27811,7 +27870,7 @@
             "colTotals": false,
             "colorSet": "DARK",
             "columnDimensions": [
-                "pe"
+                "ou"
             ],
             "completedOnly": false,
             "cumulativeValues": false,
@@ -27839,7 +27898,7 @@
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
             "filterDimensions": [
-                "ou"
+                "pe"
             ],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
@@ -27973,7 +28032,7 @@
             "colTotals": false,
             "colorSet": "DARK",
             "columnDimensions": [
-                "pe"
+                "ou"
             ],
             "completedOnly": false,
             "cumulativeValues": false,
@@ -28019,7 +28078,7 @@
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
             "filterDimensions": [
-                "ou"
+                "pe"
             ],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
