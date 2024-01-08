@@ -60,7 +60,7 @@ The DHIS2 Health Facility Profile configuration is structured in two (2) major c
 
 ## Dashbaord & Analytics
 
-### Dashboard
+### [Dashboard](https://demos.dhis2.org/hmis/dhis-web-dashboard/#/FAqgpHzpKle)
 
 The dashboard included in the toolkit serve as an example of integrated analysis of Health Facility Attributes routinely reported within a HMIS for a targeted district
 
