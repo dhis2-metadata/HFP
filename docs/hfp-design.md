@@ -132,9 +132,13 @@ The DHIS2 Health Facility Profile tracker program allows for the enrollment of a
 
 It is assumed that an Health Facility should be enrolled only once in the Health Facility Profile tracker program as it refers to a static structure.
 
-The information reported on the enrollment stage could already ben present as Organisation Unit attributes or Organisation Unit group and therefore needs to be customized prior implemenation to avoid a duplication of information reported
+The information reported on the enrollment stage could already have been present as Organisation Unit attributes or Organisation Unit group and therefore needs to be customized prior implemenation to avoid a duplication of information reported.
 
 ![HFP enrollment](resources/images/enrollment.png)
+
+> **Note**
+>
+> Rather than assigning the HFP program to all health facilities, add all HF eligible for this Tracker to the dedicated Org Unit Group: `HFP - Enrolled facilities`. This OU group forms the denominator of "coverage rate" indicators (see Data Exchange below)
 
 ### Healthcare system accessibility (repeatable)
 
@@ -195,7 +199,7 @@ All data elements configured for the Tracker domain are also included in the Dat
 - HFP - Healthcare system accessibility [TOsFeelSRtJ]
 - HFP - Healthcare system preparedness [GUQpQH7YKuS]
 
-This serves as a de facto DHIS2 data dictionary for the Health Facility Profile tracker use case. It allows for the data elements to be exported from DHIS2 and used independently of the Tracker program configuration, for example in the case that an implementation redesigns their Tracker from scratch for local workflows and still wants to maintain allignement with the HHFA mapping.
+This serves as a de facto DHIS2 data dictionary for the Health Facility Profile tracker use case. It allows for the data elements to be exported from DHIS2 and used independently of the Tracker program configuration, for example in the case that an implementation redesigns their Tracker from scratch for local workflows and still wants to maintain alignment with the HHFA mapping.
 
 #### Cloned data elements for multiple option selection
 
@@ -214,6 +218,60 @@ For example, to capture multiple services provided by Community Health Workers, 
 - HFP - Systems for linking with CHW for service 2 [pcFgoO9E45l]
 - HFP - Systems for linking with CHW for service 3 [grdsdCsfNuq]
 - HFP - Systems for linking with CHW for service 4 [eSX1gtZPMP0]
+
+> **Note**
+>
+> In version 2.42 and above,  data elements could also be modeled with an option set with TYPE: TEXT WITH MULTIPLE VALUES. However, previous "cloned" data elements workflows  still function in subsequent DHIS2 versions; to ensure consistency and compatibility over time, the previous model remains unchanged in the v2.42 metadata.
+
+## Aggregate export & dashboard indicators in v2.42 release
+
+The Dashboard & Analytics section above describes a dashboard populated by Program Indicators, which read directly from Tracker analytics. As an implementation's Health Facility Profile dashboard grows (additional districts, additional downstream consumers such as data exchange to other systems, or scheduled PDF/Excel reporting), relying on live Program Indicator analytics for every dashboard item becomes a performance and maintainability bottleneck: each visualization recomputes its value from the full event/enrollment store on every load.
+
+To address this, the 2.42 version of the toolkit also provides an aggregate export path. Every HFP Program Indicator has a corresponding aggregate Data Element, kept in sync by a scheduled Aggregate Data Exchange, and the dashboard's Indicators read from these aggregate Data Elements instead of querying the Program Indicator directly.
+
+![HFP Aggregate Data Exchange](resources/images/ADX_HFP_screenshot.png)
+
+
+More details on Aggregate Data Exchange workflows can be found in [documentation here](https://docs.dhis2.org/en/implement/maintenance-and-use/tracker-and-aggregate-data-integration.html).
+
+### Aggregate Data Elements
+
+One aggregate Data Element is created per HFP Program Indicator (40 in total — one for each "assessed for stage", "facilities offering/with X", and staffing/bed-count indicator). Each aggregate Data Element:
+
+- Uses the default category combination (HFP counts facilities)
+- Is linked back to its source Program Indicator via the **aggregate export data element** attribute set on the Program Indicator, following the same convention as the HTN/DM programs
+- Takes the Program Indicator's own aggregation type — `SUM` for facility counts, `LAST` for the two staffing indicators (*HFP - Number of Medical doctors*, *HFP - Nursing and midwifery professionals*)
+
+### Monthly dataset & Aggregate Data Exchanges
+
+A new monthly dataset, **Health facility profile monthly summary** (`HFP_MONTHLY_REPORT`), holds all 40 aggregate Data Elements. Two Aggregate Data Exchanges populate it, matching the HTN/DM "current period" / "previous periods" pattern:
+
+| Data exchange                       | Code                    | Period        |
+| ------------------------------------ | ----------------------- | -------------- |
+| ADEX - HFP - Current period          | `HFP_CURRENT_PERIOD`    | `THIS_MONTH`   |
+| ADEX - HFP - Previous periods        | `HFP_PREVIOUS_PERIOD`   | `LAST_12_MONTHS` |
+
+Both pull all 40 Program Indicators at the Facility organisation unit level and write into the matching aggregate Data Element via the `ATTRIBUTE:<aggregate export data element UID>` output ID scheme, so the dataset reflects Tracker data without a live Program Indicator query at dashboard load time.
+
+> **Note**
+>
+> Most HFP Program Indicators (every "facilities offering/with X" indicator) are evaluated as a point-in-time snapshot as of the end of the reporting period, not set to events occurring within that month. A facility assessed once will continue to show the same value in every subsequent monthly period until reassessed. This matches the toolkit's existing "assessed for stage" indicators and was a deliberate choice to keep the aggregate export aligned with current Program Indicator behavior, rather than introducing new period-scoping logic.
+
+### Dashboard indicators: % of responding facilities vs. % of all facilities
+
+For each Program Indicator counting facilities, two aggregate Indicators are provided:
+
+- **`HFP - Responding facilities with <X> (% of respondents)`** — numerator is the aggregate Data Element for that Program Indicator; denominator is the aggregate Data Element for *Facilities assessed for Healthcare system accessibility* or *Facilities assessed for preparedness*, whichever stage the underlying data element belongs to. This is the **completeness-adjusted** view: of the facilities that reported anything for this stage this period, what share report `<X>`.
+- **`HFP - Facilities with <X> (% of all facilities)`** — numerator is the same aggregate Data Element; denominator is a fixed count of all facilities assigned to the HFP program, via a new **HFP - Enrolled facilities** organisation unit group (`HFP_ENROLLED_FACILITIES`). This is the **coverage** view: of every facility in scope for HFP, what share report `<X>`, regardless of whether they've been assessed yet.
+
+The two framings answer different questions and are both retained on the dashboard rather than one replacing the other — "% of responding facilities" is sensitive to reporting completeness, while "% of all facilities" is sensitive to rollout/enrollment progress.
+
+For the two "assessed for stage" indicators and the three staffing/bed-count indicators, which are not themselves facility counts, only have the total.
+
+### Existing dashboard indicators
+
+The 40 Indicators already used across the HFP dashboard, both the "Numerator only" single-value items (e.g. *Facilities with blood pressure apparatus*) and the "Percentage" items (e.g. *Facilities offering any outpatient services (%)*) — were updated to read from the new aggregate Data Elements (`#{dataElementUID}`) in place of their previous direct Program Indicator reference (`I{programIndicatorUID}`). 
+
 
 ## User Groups
 

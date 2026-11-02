@@ -1,6 +1,6 @@
 # HFP - Health Facility Profile { #hfp-installation }
 
-Package Version 1.0.0
+Package Version 1.0.1
 
 System default language: English
 
