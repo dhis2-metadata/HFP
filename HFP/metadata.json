@@ -176,7 +176,7 @@
                         "outputIdScheme": "ATTRIBUTE:vudyDP7jUy5",
                         "outputOrgUnitIdScheme": "UID",
                         "pe": [
-                            "LAST_12_MONTHS"
+                            "LAST_3_MONTHS"
                         ]
                     }
                 ]
@@ -9671,207 +9671,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "rCC0MxQ0kEy"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "yMu4QgKjXVh"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "wBGqVoFnPOC"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "INM5B4N9DyE"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "NAngaxGDx6d"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "DpfhhNC542t"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "jnQku9E18Sp"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ijw3Y3Edzh7"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "YP2UOXNi9HD"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "KBluiMCvmaQ"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "hEhuaIFB6Wg"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "QH0LUGCjLcT"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "uDWJqVLs3Dq"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "zcJwxpJBeKQ"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "QNo2M6IKqWS"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "mGgWO4IDkEs"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "v8wrSePTHjl"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "gGqBKEOWvZZ"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "GnhsMeDDEYE"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Z2jOFvDl0Md"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "dzaCdSEWTva"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "gNkI0ANBfiE"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "YHKkUzLYf4H"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "M4owQNQMkGR"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Ih69ysM13SG"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "UNNEcUL22B4"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -9887,7 +9687,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "YfqnkeQiXUQ"
+                        "id": "gGqBKEOWvZZ"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -9895,47 +9695,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "QWg45CH5tYn"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "sCPRitL4Qck"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "PFJ5j4JAhde"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "K9o22wR6wMh"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "WrdZDJFlX9R"
-                    },
-                    "dataSet": {
-                        "id": "p5BlXqNCXwW"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "duuWWjIFUuv"
+                        "id": "e6ojDKIpenx"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -9951,7 +9711,167 @@
                 },
                 {
                     "dataElement": {
+                        "id": "QWg45CH5tYn"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "WrdZDJFlX9R"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "ijw3Y3Edzh7"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "rCC0MxQ0kEy"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "uDWJqVLs3Dq"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "KBluiMCvmaQ"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "duuWWjIFUuv"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "dzaCdSEWTva"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "sCPRitL4Qck"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "IeOFb9KSLCS"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "v8wrSePTHjl"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "YfqnkeQiXUQ"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "YP2UOXNi9HD"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Ih69ysM13SG"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "QH0LUGCjLcT"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "PFJ5j4JAhde"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Z2jOFvDl0Md"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "mGgWO4IDkEs"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "M4owQNQMkGR"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "hEhuaIFB6Wg"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "K9o22wR6wMh"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -9967,7 +9887,31 @@
                 },
                 {
                     "dataElement": {
-                        "id": "Gz6YvrKoUvd"
+                        "id": "zcJwxpJBeKQ"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "gNkI0ANBfiE"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "QNo2M6IKqWS"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "yMu4QgKjXVh"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -9983,7 +9927,63 @@
                 },
                 {
                     "dataElement": {
-                        "id": "e6ojDKIpenx"
+                        "id": "wBGqVoFnPOC"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "NAngaxGDx6d"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Gz6YvrKoUvd"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "UNNEcUL22B4"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "YHKkUzLYf4H"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "jnQku9E18Sp"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "GnhsMeDDEYE"
+                    },
+                    "dataSet": {
+                        "id": "p5BlXqNCXwW"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "INM5B4N9DyE"
                     },
                     "dataSet": {
                         "id": "p5BlXqNCXwW"
@@ -10000,7 +10000,7 @@
             "name": "Health facility profile monthly summary",
             "noValueRequiresComment": false,
             "notifyCompletingUser": false,
-            "openFuturePeriods": 0,
+            "openFuturePeriods": 1,
             "openPeriodsAfterCoEndDate": 0,
             "periodType": "Monthly",
             "renderAsTabs": false,
@@ -10030,7 +10030,7 @@
             "timelyDays": 0.0,
             "translations": [],
             "validCompleteOnly": false,
-            "version": 2
+            "version": 3
         }
     ],
     "documents": [],
@@ -14875,12 +14875,12 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "qvig9T0Lbw8",
+                    "id": "CRaJrRQeEPq",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
                     "metaData": {},
-                    "name": "qvig9T0Lbw8",
+                    "name": "Organisation units",
                     "noSpaceBetweenColumns": false,
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
@@ -15001,7 +15001,7 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "Ex0u8zm5qAo",
+                    "id": "I6OEB2fAMU0",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -15020,7 +15020,7 @@
                     "periods": [],
                     "programIndicatorDimensions": [],
                     "rawPeriods": [
-                        "TODAY"
+                        "THIS_MONTH"
                     ],
                     "regressionType": "NONE",
                     "relativePeriods": {
@@ -15060,9 +15060,9 @@
                         "quartersThisYear": false,
                         "thisBiWeek": false,
                         "thisBimonth": false,
-                        "thisDay": true,
+                        "thisDay": false,
                         "thisFinancialYear": false,
-                        "thisMonth": false,
+                        "thisMonth": true,
                         "thisQuarter": false,
                         "thisSixMonth": false,
                         "thisWeek": false,
@@ -15149,12 +15149,12 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "bSBqlc7ZBEr",
+                    "id": "i3wbcc4e8Ov",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
                     "metaData": {},
-                    "name": "bSBqlc7ZBEr",
+                    "name": "Organisation units",
                     "noSpaceBetweenColumns": false,
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
@@ -15275,7 +15275,7 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "YSTsaPQTWnW",
+                    "id": "Oxa8qN3zTEd",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -15294,7 +15294,7 @@
                     "periods": [],
                     "programIndicatorDimensions": [],
                     "rawPeriods": [
-                        "TODAY"
+                        "THIS_YEAR"
                     ],
                     "regressionType": "NONE",
                     "relativePeriods": {
@@ -15334,13 +15334,13 @@
                         "quartersThisYear": false,
                         "thisBiWeek": false,
                         "thisBimonth": false,
-                        "thisDay": true,
+                        "thisDay": false,
                         "thisFinancialYear": false,
                         "thisMonth": false,
                         "thisQuarter": false,
                         "thisSixMonth": false,
                         "thisWeek": false,
-                        "thisYear": false,
+                        "thisYear": true,
                         "weeksThisYear": false,
                         "yesterday": false
                     },
@@ -15423,14 +15423,14 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "iE1VUWZMk33",
+                    "id": "uVhRFJZiPKp",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labelFontWeight": "bold",
                     "labels": false,
                     "layer": "orgUnit",
                     "metaData": {},
-                    "name": "iE1VUWZMk33",
+                    "name": "Organisation units",
                     "noSpaceBetweenColumns": false,
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
@@ -15551,7 +15551,7 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "tPfdJ55ctE8",
+                    "id": "XcUeFhaaJop",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -15571,7 +15571,7 @@
                     "periods": [],
                     "programIndicatorDimensions": [],
                     "rawPeriods": [
-                        "TODAY"
+                        "THIS_YEAR"
                     ],
                     "regressionType": "NONE",
                     "relativePeriods": {
@@ -15611,13 +15611,13 @@
                         "quartersThisYear": false,
                         "thisBiWeek": false,
                         "thisBimonth": false,
-                        "thisDay": true,
+                        "thisDay": false,
                         "thisFinancialYear": false,
                         "thisMonth": false,
                         "thisQuarter": false,
                         "thisSixMonth": false,
                         "thisWeek": false,
-                        "thisYear": false,
+                        "thisYear": true,
                         "weeksThisYear": false,
                         "yesterday": false
                     },
@@ -15976,12 +15976,12 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "JFDWXFJkCB2",
+                    "id": "h8uVCaNBaPA",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "layer": "orgUnit",
                     "metaData": {},
-                    "name": "JFDWXFJkCB2",
+                    "name": "Organisation units",
                     "noSpaceBetweenColumns": false,
                     "opacity": 1.0,
                     "organisationUnitGroupSetDimensions": [],
@@ -16103,7 +16103,7 @@
                     "hideLegend": false,
                     "hideSubtitle": false,
                     "hideTitle": false,
-                    "id": "VHjCvBlX4gK",
+                    "id": "xw49H07H4AE",
                     "interpretations": [],
                     "itemOrganisationUnitGroups": [],
                     "labels": true,
@@ -18616,7 +18616,7 @@
         "description": "Health Facility Profile",
         "healthAreaCode": "HFP",
         "healthAreaName": "Health Facility Profile",
-        "lastUpdated": "20261102T175941",
+        "lastUpdated": "20261103T111210",
         "locale": "en",
         "name": "HFP_TRK_DHIS2.42.4-en",
         "type": "TRK",
@@ -18661,6 +18661,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_ASSESSED_ACCESSIBILITY",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "V{program_stage_id} == 'JIzBaGNJ1C4' && d2:hasValue(V{event_date})",
             "id": "lwzuW88TEmy",
@@ -18727,6 +18728,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_ASSESSED_PREPAREDNESS",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "V{program_stage_id} == 'SnFzMXuYP0D' && d2:hasValue(V{event_date})",
             "id": "ARpRqs8uFA1",
@@ -18807,6 +18809,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_IPC_SCORE_ADVANCED_LEVEL",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.ri2CzlIRGI5} == 'IPCSCORE_ADVANCED'",
             "id": "TNU1sXfYBPk",
@@ -18887,6 +18890,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_IPC_SCORE_BASIC_LEVEL",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.ri2CzlIRGI5} == 'IPCSCORE_BASIC'",
             "id": "qErEHJDlm6P",
@@ -18967,6 +18971,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_IPC_SCORE_INADEQUATE_LEVEL",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.ri2CzlIRGI5} == 'IPCSCORE_INADEQUATE'",
             "id": "W8CR9FO9jzd",
@@ -19047,6 +19052,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_IPC_SCORE_INTERMEDIATE_LEVEL",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.ri2CzlIRGI5} == 'IPCSCORE_INTERMED'",
             "id": "qJ6vpd2ILS2",
@@ -19127,6 +19133,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_ART",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.TR5fCCgDt8F} == 1",
             "id": "vlEHfT4SZ9Y",
@@ -19207,6 +19214,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_CHILDBIRTH",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.kjZSUxte36R} == 1",
             "id": "RGCNZJ0mSh8",
@@ -19287,6 +19295,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_STI_TREATMENT_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.XYuUFjTk55B} == 1",
             "id": "nLZaJasi7rK",
@@ -19367,6 +19376,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_IMMUNIZATION_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.n4hejx2fUvh} == 1",
             "id": "PgO3lAdPdZn",
@@ -19447,6 +19457,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_INPATIENT_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.lh8FLDk0QQn} == 1",
             "id": "zxkDXgncSRZ",
@@ -19527,6 +19538,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_OUTPATIENT_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.qzhjPDZ2NMr} == 1",
             "id": "pOkLL0ykhwg",
@@ -19607,6 +19619,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_PALLIATIVE_CARE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.idtXK1TTyUd} == 1",
             "id": "ZcjeyYQfk4w",
@@ -19687,6 +19700,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_SERVICE_FOR_DRUG_RESISTANT_TB",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.GwmV0q9W5xf} == 1",
             "id": "WqUxqU4TMXw",
@@ -19767,6 +19781,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_HIV_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.aa9ulv0QpC3} == 1 || #{JIzBaGNJ1C4.WfmACfSH6Pl} == 1 ||#{JIzBaGNJ1C4.ee1ZTOL80hx} == 1 ||#{JIzBaGNJ1C4.tKatq8QO7WA} == 1 || #{JIzBaGNJ1C4.TR5fCCgDt8F} == 1",
             "id": "bEKHNEfBd0D",
@@ -19847,6 +19862,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_MENTAL_DISORDER_SERVICE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.lbYJ96eFjmf} == 1",
             "id": "VTblT2ZfZNV",
@@ -19927,6 +19943,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_TB_SERVICES",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.B6RuPpusIn5} == 1",
             "id": "YZSI65Gx7X5",
@@ -20007,6 +20024,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_ART_CD4_VIRAL_LOAD",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.TR5fCCgDt8F} == 1 && (#{JIzBaGNJ1C4.ee1ZTOL80hx} == 1 || #{JIzBaGNJ1C4.tKatq8QO7WA} == 1)",
             "id": "upoCbcHlbbj",
@@ -20087,6 +20105,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_HIV_CARE_SUPPORT",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.ee1ZTOL80hx} == 1 ||#{JIzBaGNJ1C4.tKatq8QO7WA} == 1",
             "id": "yH8F2qH80WR",
@@ -20167,6 +20186,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_HIV_DIAGNOSTIC_TESTING",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.WfmACfSH6Pl} == 1",
             "id": "hJN1cryiZaI",
@@ -20247,6 +20267,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_IMMUNIZATION_AND_FRIDGE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.fD7rQfQlW1H} == 'FRIDGE_YES'",
             "id": "Sia9wDeHzde",
@@ -20327,6 +20348,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_MALARIA_DIAGNOSIS",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.SK4pHtEYj3C} == 1 && #{JIzBaGNJ1C4.QhdyXYeUceZ} == 1",
             "id": "bVr8AwbFP9t",
@@ -20407,6 +20429,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OXYGEN_AVAILABLE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.IktFmxLWU7m} == 1 && #{SnFzMXuYP0D.PzOYOzNTVVt} == 1",
             "id": "Jg4IAnv0cPm",
@@ -20487,6 +20510,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_PULSE_OXIMETER",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.IktFmxLWU7m} == 1 && #{SnFzMXuYP0D.XvGeoUSu2IS} == 1",
             "id": "Y5Z6qsaD6ge",
@@ -20567,6 +20591,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_POSTPARTUM_CARE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.NpcZNmJ7MR1} == 1",
             "id": "txm5RdkO8rj",
@@ -20647,6 +20672,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_SERVICES_RAPE_SURVIVORS",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.fS3OANkMCvs} == 1",
             "id": "VzrUxWYUlCB",
@@ -20727,6 +20753,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_TB_DIAGNOSIS_AND_TX",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": " #{JIzBaGNJ1C4.sNKvWU07PD0} == 1 || #{JIzBaGNJ1C4.RH5wGEc1Lg4} == 1",
             "id": "DTeyRm9ShXU",
@@ -20807,6 +20834,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_TB_DIAGNOSIS_IN_ADULTS_BY_RDT",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.V5STsitJr7b} == 1",
             "id": "ZxlROgmvuVr",
@@ -20887,6 +20915,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_OFFERING_TB_DIAGNOSTIC_TEST",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.sNKvWU07PD0} == 1",
             "id": "txetRghemb7",
@@ -20967,6 +20996,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_BLOOD_PRESSURE_APPARATUS",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.Y44MWG7LIrE} == 1",
             "id": "YBbqceNjlgg",
@@ -21047,6 +21077,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_BLOOD_TRANSFUSION",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{JIzBaGNJ1C4.ZfIvNSY6tln} == 1",
             "id": "bmztTBrwjye",
@@ -21127,6 +21158,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_COMMUNICATIONS_SYSTEM",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.IfaW02phjkH} == 'COMMS_YES'",
             "id": "NbjBrcEzNCF",
@@ -21207,6 +21239,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_COMPUTER_WITH_INTERNET",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.pLKN9hzAcct} == 'YES'",
             "id": "QMmAo59wepR",
@@ -21287,6 +21320,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_OXYGEN_ADMINISTRATION",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.IktFmxLWU7m} == 1",
             "id": "UaijrjrlsoM",
@@ -21367,6 +21401,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_POWER",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.IB9THMl7BDB} == 1",
             "id": "isRXwIuSyqP",
@@ -21447,6 +21482,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_STETHOSCOPE",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.Z2b6XI8D7IQ} == 1",
             "id": "JhdU8IbmBSa",
@@ -21527,6 +21563,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_FACILITIES_WITH_THERMOMETER",
+            "decimals": 0,
             "expression": "V{org_unit_count}",
             "filter": "#{SnFzMXuYP0D.FOe3TV9GEHB} ==  1",
             "id": "xpL1wqAdhjL",
@@ -21593,6 +21630,7 @@
             },
             "categoryMappingIds": [],
             "code": "AN_HFP_INPATIENT_BEDS_IN_FACILITIES_OFFERING_IPD",
+            "decimals": 0,
             "expression": "#{JIzBaGNJ1C4.IkFDgWxu9Mv}",
             "filter": "true",
             "id": "nwIVfPdvOUL",
@@ -21659,6 +21697,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_MEDICAL_DOCTORS",
+            "decimals": 0,
             "expression": "#{JIzBaGNJ1C4.sUUqDmgFaNE} + #{JIzBaGNJ1C4.fh98eysSUv5}",
             "filter": "true",
             "id": "eszOwMf2s69",
@@ -21725,6 +21764,7 @@
             },
             "categoryMappingIds": [],
             "code": "HFP_NURSING_MIDWIFERY_PROFESSIONALS",
+            "decimals": 0,
             "expression": "#{JIzBaGNJ1C4.DxCLTk69Equ} + #{JIzBaGNJ1C4.jO2vIvEaOmQ} + #{JIzBaGNJ1C4.i3tsjGOn5rR}",
             "filter": "true",
             "id": "wHYHwNM5K7s",
@@ -30895,14 +30935,18 @@
     "userRoles": [
         {
             "authorities": [
-                "F_DATAVALUE_DELETE",
                 "M_dhis-web-aggregate-data-entry",
-                "M_dhis-web-cache-cleaner",
+                "M_dhis-web-event-reports",
+                "F_VIEW_EVENT_ANALYTICS",
                 "M_dhis-web-maintenance",
                 "M_dhis-web-data-visualizer",
                 "M_dhis-web-dashboard",
-                "F_DATAVALUE_ADD",
                 "M_metadatamanagement",
+                "M_dataexchange",
+                "F_EXPORT_DATA",
+                "F_DATAVALUE_DELETE",
+                "M_dhis-web-cache-cleaner",
+                "F_DATAVALUE_ADD",
                 "M_dhis-web-maps"
             ],
             "id": "nCNR71ZbTHK",
@@ -31016,7 +31060,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31128,7 +31172,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31245,7 +31289,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31362,7 +31406,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31479,7 +31523,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31596,7 +31640,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31713,7 +31757,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31830,7 +31874,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -31991,7 +32035,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32128,7 +32172,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32255,7 +32299,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32392,7 +32436,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32517,7 +32561,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32655,7 +32699,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
@@ -32787,7 +32831,7 @@
             "percentStackedValues": false,
             "periods": [],
             "rawPeriods": [
-                "TODAY"
+                "THIS_MONTH"
             ],
             "regression": false,
             "regressionType": "NONE",
